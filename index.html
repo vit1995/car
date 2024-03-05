@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240305193046">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top">
+					<div class="header__colum-left">
+						<!-- <div class="header__logo">
+					<a href="#"> <img src="img/logo/logo.svg" alt="logo"></a>
+				</div> -->
+						<div class="header__menu menu">
+							<!-- <button type="button" class="menu__icon icon-menu"><span></span></button> -->
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#"><img src="img/home/logo/logo.svg" alt=""></a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Продвижение услуг</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Помещения</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Event-авто</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Акции</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="header__colum-right ">
+						<div class="header__colum-right-top">
+							<div class="header__cabinet cabinet-header">
+								<div class="cabinet-header__text">Личный кабинет</div>
+								<div class="cabinet-header__prise">Баланс: 202 404р</div>
+							</div>
+							<a class="header__button number-button" href="#" type="button">Выложить объявление</a>
+						</div>
+						<div class="header__colum-right-bottom">
+							<div class="header__city"><select data-tags data-class-modif="city" class="header__bottom-select" name="form[select]" data-class-modif="form">
+									<option value="1" selected>Мосвка</option>
+									<option value="2">Минск</option>
+									<option value="3">Пункт №3</option>
+									<option value="4">Пункт №4</option>
+								</select></div>
+							<div class="header__icon">
+								<a href="#"> <img src="img/home/icon/message.svg" alt="message"></a>
+								<a href="#"> <img src="img/home/icon/heart.svg" alt="heart"></a>
+								<a href="# "><img src="img/home/icon/bell.svg" alt="bell"></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<form class="header__bottom-search" action="files/sendmail/sendmail.php" method="POST">
+					<select data-tags data-class-modif="search" class="header__bottom-select" name="form[select]" data-class-modif="form">
+						<option value="1" selected> о акции</option>
+						<option value="2">Услуги</option>
+						<option value="3">Пункт3</option>
+						<option value="4">Пункт4</option>
+					</select>
+					<div class="header__body-input">
+						<input class="header__input-search input" autocomplete="off" type="text" name="form[search]" data-error="ошибка" placeholder="Поиск по объявлениям">
+						<button class="header__input-button"><img class="header__input-icon" src="img/home/icon/Search.svg" alt="Search"></button>
+					</div>
+				</form>
+			</div>
+		</header>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">Закрити</button>
+					<div class="popup__text">
+						<h2 class="popup__title">Медный премиальный лофт</h2>
+						<div class="popup__city"></div>
+						<div class="popup__metro"><span>Савеловская</span> <img src="img/home/popup/icon/metro.svg" alt="metro">
+						</div>
+						<div class="popup__informatoins">
+							<div class="popup__contacts">
+								<div class="popup__contacts-title">Контакты</div>
+								<div class="popup__contacts-items">
+									<div class="popup__contacts-name">Алексей Иванов</div>
+									<a class="popup__contacts-number" href="tel:+79997777777">+7 (999) 777 77 77</a>
+								</div>
+							</div>
+
+							<div class="popup__other-contacts">
+								<div class="popup__other-contacts-title">
+									Другие контакты
+								</div>
+								<div class="popup__other-contacts-body">
+									<div class="popup__other-contacts-whatsapp"><img src="img/home/popup/icon/whatsapp.svg" alt="whatsapp"><a href="tel:74954322232">7 495 432-22-32</a></div>
+									<div class="popup__other-contacts-vk"><img src="img/home/popup/icon/vk.svg" alt=""> <a href="mailto:@loftdesigne">@loftdesigne</a></div>
+									<div class="popup__other-contacts-telegram"> <img src="img/home/popup/icon/telegram.svg" alt="telegram"><a href="http://vk.com/loftdsgn">vk.com/loftdsgn</a></div>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="popup__slider swiper">
+							<div class="popup__slider-wrapper swiper-wrapper">
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/01.webp" type="image/webp"><img src="img/home/popup/01.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/02.webp" type="image/webp"><img src="img/home/popup/02.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/03.webp" type="image/webp"><img src="img/home/popup/03.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/04.webp" type="image/webp"><img src="img/home/popup/04.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/05.webp" type="image/webp"><img src="img/home/popup/05.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/01.webp" type="image/webp"><img src="img/home/popup/01.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/01.webp" type="image/webp"><img src="img/home/popup/01.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/05.webp" type="image/webp"><img src="img/home/popup/05.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/01.webp" type="image/webp"><img src="img/home/popup/01.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/01.webp" type="image/webp"><img src="img/home/popup/01.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/05.webp" type="image/webp"><img src="img/home/popup/05.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/02.webp" type="image/webp"><img src="img/home/popup/02.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/05.webp" type="image/webp"><img src="img/home/popup/05.jpeg" alt="images"></picture>
+								</div>
+								<div class="popup__slide popup__slide-ibg swiper-slide">
+									<picture><source srcset="img/home/popup/02.webp" type="image/webp"><img src="img/home/popup/02.jpeg" alt="images"></picture>
+								</div>
+							</div>
+
+							<div class="popup__slider-arrows recommend__slide-arrows">
+								<div class="recommend__arrow-prev swiper-button-prev"></div>
+								<div class="recommend__arrow-next swiper-button-next"></div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<main class="page">
+			<section class="page__hero hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title">Всё для ваших мероприятий на <span>Eventbooking</span></h1>
+						<ul class="hero__tags">
+							<li class="hero__tag"><a href="#">Залы для тренингов</a></li>
+							<li class="hero__tag"><a href="#">Фотостудии</a></li>
+							<li class="hero__tag"><a href="#">Аренда авто</a></li>
+							<li class="hero__tag"><a href="#">Концертные залы</a></li>
+							<li class="hero__tag"><a href="#">Кулинарные студии</a></li>
+							<li class="hero__tag"><a href="#">Банкетные залы</a></li>
+						</ul>
+						<div class="hero__buttons "><a href="#" class="hero__button">Открыть каталог</a></div>
+
+					</div>
+					<div class="hero__images">
+						<div class="hero__img hero__img-ibg "><picture><source srcset="img/home/hero/01.webp" type="image/webp"><img src="img/home/hero/01.jpeg" alt="#"></picture></div>
+						<div class="hero__img hero__img-ibg "><picture><source srcset="img/home/hero/02.webp" type="image/webp"><img src="img/home/hero/02.jpeg" alt="#"></picture></div>
+						<div class="hero__img hero__img-ibg "><picture><source srcset="img/home/hero/03.webp" type="image/webp"><img src="img/home/hero/03.jpeg" alt="#"></picture></div>
+						<div class="hero__img hero__img-ibg "><picture><source srcset="img/home/hero/04.webp" type="image/webp"><img src="img/home/hero/04.jpeg" alt="#"></picture></div>
+
+					</div>
+
+
+				</div>
+			</section>
+			<section class="page__information information">
+				<div class="information__container">
+					<div class="information__column">
+						<div class="information__items">
+							<div class="information__number"><img src="img/home/informations/01.svg" alt=""></div>
+							<h2 class="information__title">Без комиссии</h2>
+							<div class="information__text">Мы не берем комиссию с заказчиков</div>
+						</div>
+					</div>
+
+					<div class="information__column">
+						<div class="information__items">
+							<div class="information__number"><img src="img/home/informations/02.svg" alt=""></div>
+							<h2 class="information__title">Чат с продавцом</h2>
+							<div class="information__text">Общение с продавцом без посредников с помощью чата</div>
+						</div>
+					</div>
+
+					<div class="information__column">
+						<div class="information__items">
+							<div class="information__number"><img src="img/home/informations/03.svg" alt=""></div>
+							<h2 class="information__title">Реальные цены</h2>
+							<div class="information__text">Цены проверены нашей службой качества</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__recommend recommend">
+				<div class="recommend__container">
+					<h3 class="recommend__title">Мы рекомендуем</h3>
+					<div data-tabs class="recommend__tabs">
+						<nav data-tabs-titles class="recommend__navigation">
+							<button type="button" class="recommend__tab _tab-active">Помещения</button>
+							<button type="button" class="recommend__tab">Транспорт</button>
+							<button type="button" class="recommend__tab">Услуги</button>
+						</nav>
+						<div data-tabs-body class="recommend__content">
+							<div class="recommend__body">
+								<div class="recommend__body-wraper">
+									<div class="recommend__content content-recommend">
+										<h4 class="content-recommend__title">Медный премиальный лофт</h4>
+										<div class="content-recommend__user"><span>Loftblackout</span> <picture><source srcset="img/home/recommend/user.webp" type="image/webp"><img src="img/home/recommend/user.jpeg" alt=""></picture> </div>
+										<div class="content-recommend__city">Москва</div>
+										<div class="content-recommend__addres">
+											Савеловская(5мин) <i><img src="img/home/recommend/icon/metro.svg" alt="metro"></i>
+										</div>
+										<div class="content-recommend__icon">
+											<img src="img/home/recommend/icon/restaurant.svg" alt="restaurant">
+											<img src="img/home/recommend/icon/clock.svg" alt="clock">
+											<div class="content-recommend__icon-pepple"><span>50</span><img src="img/home/recommend/icon/peple.svg" alt="peplle"> </div>
+											<div class="content-recommend__icon-m"><span>50</span><img src="img/home/recommend/icon/Vector.svg" alt="peplle"> </div>
+
+										</div>
+										<div class="content-recommend__price">
+											От 3000₽ до 7500₽
+										</div>
+										<div class="content-recommend__buttons">
+											<a href="#" class="content-recommend__button number-button">Подробнее</a>
+											<a href="#" class="content-recommend__button-while number-button number-button--while">избранное</a>
+										</div>
+									</div>
+									<div class="recommend__slider swiper">
+										<div class="recommend__slider-wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="recommend__slide-slider swiper-slide">
+												<div class="recommend__image-slider  recommend__image-slider-ibg"> <picture><source srcset="img/home/recommend/01.webp" type="image/webp"><img src="img/home/recommend/01.jpeg" alt="img"></picture></div>
+												<div class="recommend__body-slider">
+													<div class="recommend__slide-rating rating">
+														<div class="rating rating_set">
+															<div class="rating__body">
+																<div class="rating__active"></div>
+																<div class="rating__items">
+																	<input type="radio" class="rating__item" value="1" name="rating">
+																	<input type="radio" class="rating__item" value="2" name="rating">
+																	<input type="radio" class="rating__item" value="3" name="rating">
+																	<input type="radio" class="rating__item" value="4" name="rating">
+																	<input type="radio" class="rating__item" value="5" name="rating">
+																</div>
+															</div>
+															<div hidden class="rating__value">3.6</div>
+														</div>
+														<div class="rating__review">
+															<span>25</span> отзывов
+														</div>
+													</div>
+													<ul class="recommend__slide-items">
+														<li class="recommend__slide-link"> <a href="#">Парковка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Светомузыка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Свободный въезд на
+																территорию</a></li>
+														<li class="recommend__slide-link"> <a href="#">Wifi</a></li>
+														<li class="recommend__slide-link"> <a href="#">Сцена</a></li>
+														<li class="recommend__slide-link"> <a href="#">ПаркСценавка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Зона для детей</a>
+														</li>
+														<li class="recommend__slide-link"> <a href="#">Караоке</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="recommend__slide-slider swiper-slide">
+												<div class="recommend__image-slider  recommend__image-slider-ibg"> <picture><source srcset="img/home/recommend/01.webp" type="image/webp"><img src="img/home/recommend/01.jpeg" alt="img"></picture></div>
+												<div class="recommend__body-slider">
+													<div class="recommend__slide-rating rating">
+														<div class="rating rating_set">
+															<div class="rating__body">
+																<div class="rating__active"></div>
+																<div class="rating__items">
+																	<input type="radio" class="rating__item" value="1" name="rating">
+																	<input type="radio" class="rating__item" value="2" name="rating">
+																	<input type="radio" class="rating__item" value="3" name="rating">
+																	<input type="radio" class="rating__item" value="4" name="rating">
+																	<input type="radio" class="rating__item" value="5" name="rating">
+																</div>
+															</div>
+															<div hidden class="rating__value">3.6</div>
+														</div>
+														<div class="rating__review">
+															<span>25</span> отзывов
+														</div>
+													</div>
+													<ul class="recommend__slide-items">
+														<li class="recommend__slide-link"> <a href="#">Парковка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Светомузыка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Свободный въезд на
+																территорию</a></li>
+														<li class="recommend__slide-link"> <a href="#">Wifi</a></li>
+														<li class="recommend__slide-link"> <a href="#">Сцена</a></li>
+														<li class="recommend__slide-link"> <a href="#">ПаркСценавка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Зона для детей</a>
+														</li>
+														<li class="recommend__slide-link"> <a href="#">Караоке</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="recommend__slide-arrows">
+											<div class="recommend__arrow-prev swiper-button-prev"></div>
+											<div class="recommend__arrow-next swiper-button-next"></div>
+										</div>
+									</div>
+								</div>
+								<div class="recommend__body-wraper">
+									<div class="recommend__content content-recommend">
+										<h4 class="content-recommend__title">Медный премиальный лофт</h4>
+										<div class="content-recommend__user"><span>Loftblackout</span> <picture><source srcset="img/home/recommend/user.webp" type="image/webp"><img src="img/home/recommend/user.jpeg" alt=""></picture> </div>
+										<div class="content-recommend__city">Москва</div>
+										<div class="content-recommend__addres">
+											Савеловская(5мин) <i><img src="img/home/recommend/icon/metro.svg" alt="metro"></i>
+										</div>
+										<div class="content-recommend__icon">
+											<img src="img/home/recommend/icon/restaurant.svg" alt="restaurant">
+											<img src="img/home/recommend/icon/clock.svg" alt="clock">
+											<div class="content-recommend__icon-pepple"><span>50</span><img src="img/home/recommend/icon/peple.svg" alt="peplle"> </div>
+											<div class="content-recommend__icon-m"><span>50</span><img src="img/home/recommend/icon/Vector.svg" alt="peplle"> </div>
+
+										</div>
+										<div class="content-recommend__price">
+											От 3000₽ до 7500₽
+										</div>
+										<div class="content-recommend__buttons">
+											<a href="#" class="content-recommend__button number-button">Подробнее</a>
+											<a href="#" class="content-recommend__button-while number-button number-button--while">избранное</a>
+										</div>
+									</div>
+									<div class="recommend__slider swiper">
+										<div class="recommend__slider-wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="recommend__slide-slider swiper-slide">
+												<div class="recommend__image-slider  recommend__image-slider-ibg"> <picture><source srcset="img/home/recommend/01.webp" type="image/webp"><img src="img/home/recommend/01.jpeg" alt="img"></picture></div>
+												<div class="recommend__body-slider">
+													<div class="recommend__slide-rating rating">
+														<div class="rating rating_set">
+															<div class="rating__body">
+																<div class="rating__active"></div>
+																<div class="rating__items">
+																	<input type="radio" class="rating__item" value="1" name="rating">
+																	<input type="radio" class="rating__item" value="2" name="rating">
+																	<input type="radio" class="rating__item" value="3" name="rating">
+																	<input type="radio" class="rating__item" value="4" name="rating">
+																	<input type="radio" class="rating__item" value="5" name="rating">
+																</div>
+															</div>
+															<div hidden class="rating__value">3.6</div>
+														</div>
+														<div class="rating__review">
+															<span>25</span> отзывов
+														</div>
+													</div>
+													<ul class="recommend__slide-items">
+														<li class="recommend__slide-link"> <a href="#">Парковка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Светомузыка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Свободный въезд на
+																территорию</a></li>
+														<li class="recommend__slide-link"> <a href="#">Wifi</a></li>
+														<li class="recommend__slide-link"> <a href="#">Сцена</a></li>
+														<li class="recommend__slide-link"> <a href="#">ПаркСценавка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Зона для детей</a>
+														</li>
+														<li class="recommend__slide-link"> <a href="#">Караоке</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="recommend__slide-slider swiper-slide">
+												<div class="recommend__image-slider  recommend__image-slider-ibg"> <picture><source srcset="img/home/recommend/01.webp" type="image/webp"><img src="img/home/recommend/01.jpeg" alt="img"></picture></div>
+												<div class="recommend__body-slider">
+													<div class="recommend__slide-rating rating">
+														<div class="rating rating_set">
+															<div class="rating__body">
+																<div class="rating__active"></div>
+																<div class="rating__items">
+																	<input type="radio" class="rating__item" value="1" name="rating">
+																	<input type="radio" class="rating__item" value="2" name="rating">
+																	<input type="radio" class="rating__item" value="3" name="rating">
+																	<input type="radio" class="rating__item" value="4" name="rating">
+																	<input type="radio" class="rating__item" value="5" name="rating">
+																</div>
+															</div>
+															<div hidden class="rating__value">3.6</div>
+														</div>
+														<div class="rating__review">
+															<span>25</span> отзывов
+														</div>
+													</div>
+													<ul class="recommend__slide-items">
+														<li class="recommend__slide-link"> <a href="#">Парковка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Светомузыка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Свободный въезд на
+																территорию</a></li>
+														<li class="recommend__slide-link"> <a href="#">Wifi</a></li>
+														<li class="recommend__slide-link"> <a href="#">Сцена</a></li>
+														<li class="recommend__slide-link"> <a href="#">ПаркСценавка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Зона для детей</a>
+														</li>
+														<li class="recommend__slide-link"> <a href="#">Караоке</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="recommend__slide-arrows">
+											<div class="recommend__arrow-prev swiper-button-prev"></div>
+											<div class="recommend__arrow-next swiper-button-next"></div>
+										</div>
+									</div>
+								</div>
+								<div class="recommend__body-wraper">
+									<div class="recommend__content content-recommend">
+										<h4 class="content-recommend__title">Медный премиальный лофт</h4>
+										<div class="content-recommend__user"><span>Loftblackout</span> <picture><source srcset="img/home/recommend/user.webp" type="image/webp"><img src="img/home/recommend/user.jpeg" alt=""></picture> </div>
+										<div class="content-recommend__city">Москва</div>
+										<div class="content-recommend__addres">
+											Савеловская(5мин) <i><img src="img/home/recommend/icon/metro.svg" alt="metro"></i>
+										</div>
+										<div class="content-recommend__icon">
+											<img src="img/home/recommend/icon/restaurant.svg" alt="restaurant">
+											<img src="img/home/recommend/icon/clock.svg" alt="clock">
+											<div class="content-recommend__icon-pepple"><span>50</span><img src="img/home/recommend/icon/peple.svg" alt="peplle"> </div>
+											<div class="content-recommend__icon-m"><span>50</span><img src="img/home/recommend/icon/Vector.svg" alt="peplle"> </div>
+
+										</div>
+										<div class="content-recommend__price">
+											От 3000₽ до 7500₽
+										</div>
+										<div class="content-recommend__buttons">
+											<a href="#" class="content-recommend__button number-button">Подробнее</a>
+											<a href="#" class="content-recommend__button-while number-button number-button--while">избранное</a>
+										</div>
+									</div>
+									<div class="recommend__slider swiper">
+										<div class="recommend__slider-wrapper swiper-wrapper">
+											<!-- Слайд -->
+											<div class="recommend__slide-slider swiper-slide">
+												<div class="recommend__image-slider  recommend__image-slider-ibg"> <picture><source srcset="img/home/recommend/01.webp" type="image/webp"><img src="img/home/recommend/01.jpeg" alt="img"></picture></div>
+												<div class="recommend__body-slider">
+													<div class="recommend__slide-rating rating">
+														<div class="rating rating_set">
+															<div class="rating__body">
+																<div class="rating__active"></div>
+																<div class="rating__items">
+																	<input type="radio" class="rating__item" value="1" name="rating">
+																	<input type="radio" class="rating__item" value="2" name="rating">
+																	<input type="radio" class="rating__item" value="3" name="rating">
+																	<input type="radio" class="rating__item" value="4" name="rating">
+																	<input type="radio" class="rating__item" value="5" name="rating">
+																</div>
+															</div>
+															<div hidden class="rating__value">3.6</div>
+														</div>
+														<div class="rating__review">
+															<span>25</span> отзывов
+														</div>
+													</div>
+													<ul class="recommend__slide-items">
+														<li class="recommend__slide-link"> <a href="#">Парковка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Светомузыка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Свободный въезд на
+																территорию</a></li>
+														<li class="recommend__slide-link"> <a href="#">Wifi</a></li>
+														<li class="recommend__slide-link"> <a href="#">Сцена</a></li>
+														<li class="recommend__slide-link"> <a href="#">ПаркСценавка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Зона для детей</a>
+														</li>
+														<li class="recommend__slide-link"> <a href="#">Караоке</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="recommend__slide-slider swiper-slide">
+												<div class="recommend__image-slider  recommend__image-slider-ibg"> <picture><source srcset="img/home/recommend/01.webp" type="image/webp"><img src="img/home/recommend/01.jpeg" alt="img"></picture></div>
+												<div class="recommend__body-slider">
+													<div class="recommend__slide-rating rating">
+														<div class="rating rating_set">
+															<div class="rating__body">
+																<div class="rating__active"></div>
+																<div class="rating__items">
+																	<input type="radio" class="rating__item" value="1" name="rating">
+																	<input type="radio" class="rating__item" value="2" name="rating">
+																	<input type="radio" class="rating__item" value="3" name="rating">
+																	<input type="radio" class="rating__item" value="4" name="rating">
+																	<input type="radio" class="rating__item" value="5" name="rating">
+																</div>
+															</div>
+															<div hidden class="rating__value">3.6</div>
+														</div>
+														<div class="rating__review">
+															<span>25</span> отзывов
+														</div>
+													</div>
+													<ul class="recommend__slide-items">
+														<li class="recommend__slide-link"> <a href="#">Парковка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Светомузыка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Свободный въезд на
+																территорию</a></li>
+														<li class="recommend__slide-link"> <a href="#">Wifi</a></li>
+														<li class="recommend__slide-link"> <a href="#">Сцена</a></li>
+														<li class="recommend__slide-link"> <a href="#">ПаркСценавка</a></li>
+														<li class="recommend__slide-link"> <a href="#">Зона для детей</a>
+														</li>
+														<li class="recommend__slide-link"> <a href="#">Караоке</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="recommend__slide-arrows">
+											<div class="recommend__arrow-prev swiper-button-prev"></div>
+											<div class="recommend__arrow-next swiper-button-next"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="recommend__body transport-recommend">
+								<div class="transport-recommend__body">
+									<ul class="transport-recommend__list">
+										<li class="transport-recommend__link transport-recommend__link-actve"><a href="#">Представительский класс</a></li>
+										<li class="transport-recommend__link"><a href="#">Лимузин</a></li>
+										<li class="transport-recommend__link"><a href="#">Внедорожники</a></li>
+										<li class="transport-recommend__link"><a href="#">Комфорт</a></li>
+										<li class="transport-recommend__link"><a href="#">Микроавтобусы</a></li>
+										<li class="transport-recommend__link"><a href="#">Фудтраки</a></li>
+									</ul>
+									<div class="transport-recommend__atricle atricle-transport">
+										<article class="atricle-transport__items">
+											<a href="#" class="atricle-transport__images atricle-transport__images-ibg"><picture><source srcset="img/home/car/01.webp" type="image/webp"><img src="img/home/car/01.jpeg" alt="car"></picture></a>
+											<a href="#" class="atricle-transport__name">Mercedes-Benz S-Класс, 2021г</a>
+											<div class="atricle-transport__data">
+
+												<div class="atricle-transport__state">Состояние <span>Как новое</span> </div>
+												<div class="atricle-transport__place">Мест <span>3</span> </div>
+												<div class="atricle-transport__sober-driver">Трезвый водитель <span>Да</span> </div>
+												<div class="atricle-transport__car-color">Цвет авто <span>Черный</span> </div>
+												<div class="atricle-transport__interior-color">Цвет салона <span>Светлый</span>
+												</div>
+											</div>
+											<div class="atricle-transport__price">От 1200 ₽</div>
+											<a href="#" data-popup="#popup" class="atricle-transport__button number-button  number-button--magrin ">Позвонить
+												<img src="img/home/car/tel.svg" alt="tel"></a>
+
+
+										</article>
+										<article class="atricle-transport__items">
+											<a href="#" class="atricle-transport__images atricle-transport__images-ibg"><picture><source srcset="img/home/car/01.webp" type="image/webp"><img src="img/home/car/01.jpeg" alt="car"></picture></a>
+											<a href="#" class="atricle-transport__name">Mercedes-Benz S-Класс, 2021г</a>
+											<div class="atricle-transport__data">
+
+												<div class="atricle-transport__state">Состояние <span>Как новое</span> </div>
+												<div class="atricle-transport__place">Мест <span>3</span> </div>
+												<div class="atricle-transport__sober-driver">Трезвый водитель <span>Да</span> </div>
+												<div class="atricle-transport__car-color">Цвет авто <span>Черный</span> </div>
+												<div class="atricle-transport__interior-color">Цвет салона <span>Светлый</span>
+												</div>
+											</div>
+											<div class="atricle-transport__price">От 1200 ₽</div>
+											<a href="#" data-popup="#popup" class="atricle-transport__button number-button  number-button--magrin ">Позвонить
+												<img src="img/home/car/tel.svg" alt="tel"></a>
+
+
+										</article>
+										<article class="atricle-transport__items">
+											<a href="#" class="atricle-transport__images atricle-transport__images-ibg"><picture><source srcset="img/home/car/01.webp" type="image/webp"><img src="img/home/car/01.jpeg" alt="car"></picture></a>
+											<a href="#" class="atricle-transport__name">Mercedes-Benz S-Класс, 2021г</a>
+											<div class="atricle-transport__data">
+
+												<div class="atricle-transport__state">Состояние <span>Как новое</span> </div>
+												<div class="atricle-transport__place">Мест <span>3</span> </div>
+												<div class="atricle-transport__sober-driver">Трезвый водитель <span>Да</span> </div>
+												<div class="atricle-transport__car-color">Цвет авто <span>Черный</span> </div>
+												<div class="atricle-transport__interior-color">Цвет салона <span>Светлый</span>
+												</div>
+											</div>
+											<div class="atricle-transport__price">От 1200 ₽</div>
+											<a href="#" data-popup="#popup" class="atricle-transport__button number-button  number-button--magrin ">Позвонить
+												<img src="img/home/car/tel.svg" alt="tel"></a>
+
+
+										</article>
+										<article class="atricle-transport__items">
+											<a href="#" class="atricle-transport__images atricle-transport__images-ibg"><picture><source srcset="img/home/car/01.webp" type="image/webp"><img src="img/home/car/01.jpeg" alt="car"></picture></a>
+											<a href="#" class="atricle-transport__name">Mercedes-Benz S-Класс, 2021г</a>
+											<div class="atricle-transport__data">
+
+												<div class="atricle-transport__state">Состояние <span>Как новое</span> </div>
+												<div class="atricle-transport__place">Мест <span>3</span> </div>
+												<div class="atricle-transport__sober-driver">Трезвый водитель <span>Да</span> </div>
+												<div class="atricle-transport__car-color">Цвет авто <span>Черный</span> </div>
+												<div class="atricle-transport__interior-color">Цвет салона <span>Светлый</span>
+												</div>
+											</div>
+											<div class="atricle-transport__price">От 1200 ₽</div>
+											<a href="#" data-popup="#popup" class="atricle-transport__button number-button  number-button--magrin ">Позвонить
+												<img src="img/home/car/tel.svg" alt="tel"></a>
+
+
+										</article>
+										<article class="atricle-transport__items">
+											<a href="#" class="atricle-transport__images atricle-transport__images-ibg"><picture><source srcset="img/home/car/01.webp" type="image/webp"><img src="img/home/car/01.jpeg" alt="car"></picture></a>
+											<a href="#" class="atricle-transport__name">Mercedes-Benz S-Класс, 2021г</a>
+											<div class="atricle-transport__data">
+
+												<div class="atricle-transport__state">Состояние <span>Как новое</span> </div>
+												<div class="atricle-transport__place">Мест <span>3</span> </div>
+												<div class="atricle-transport__sober-driver">Трезвый водитель <span>Да</span> </div>
+												<div class="atricle-transport__car-color">Цвет авто <span>Черный</span> </div>
+												<div class="atricle-transport__interior-color">Цвет салона <span>Светлый</span>
+												</div>
+											</div>
+											<div class="atricle-transport__price">От 1200 ₽</div>
+											<a href="#" data-popup="#popup" class="atricle-transport__button number-button  number-button--magrin ">Позвонить
+												<img src="img/home/car/tel.svg" alt="tel"></a>
+
+
+										</article>
+										<article class="atricle-transport__items">
+											<a href="#" class="atricle-transport__images atricle-transport__images-ibg"><picture><source srcset="img/home/car/01.webp" type="image/webp"><img src="img/home/car/01.jpeg" alt="car"></picture></a>
+											<a href="#" class="atricle-transport__name">Mercedes-Benz S-Класс, 2021г</a>
+											<div class="atricle-transport__data">
+
+												<div class="atricle-transport__state">Состояние <span>Как новое</span> </div>
+												<div class="atricle-transport__place">Мест <span>3</span> </div>
+												<div class="atricle-transport__sober-driver">Трезвый водитель <span>Да</span> </div>
+												<div class="atricle-transport__car-color">Цвет авто <span>Черный</span> </div>
+												<div class="atricle-transport__interior-color">Цвет салона <span>Светлый</span>
+												</div>
+											</div>
+											<div class="atricle-transport__price">От 1200 ₽</div>
+											<a href="#" class="atricle-transport__button number-button  number-button--magrin ">Позвонить
+												<img src="img/home/car/tel.svg" alt="tel"></a>
+
+
+										</article>
+
+
+									</div>
+								</div>
+
+							</div>
+							<div class="recommend__body service-recommend">
+								<div class="service-recommend__body">
+									<ul class="service-recommend__list">
+										<li class="service-recommend__link service-recommend__link-active">Фотосъемка</li>
+										<li class="service-recommend__link">Видеосъемка</li>
+										<li class="service-recommend__link">Кейтеринг</li>
+										<li class="service-recommend__link">Ведение мероприятий</li>
+									</ul>
+									<div class="service-recommend__items">
+										<div class="service-recommend__user-body">
+											<div class="service-recommend__avatar service-recommend__avatar-ibg"><picture><source srcset="img/home/service/01.webp" type="image/webp"><img src="img/home/service/01.jpeg" alt="avatar"></picture></div>
+											<div class="service-recommend__user">
+												<h3 class="service-recommend__name">Иванов Алексей Иванович <span>Онлайн</span></h3>
+												<div class="service-recommend__user-data">
+
+													<div class="service-recommend__city"> <img src="img/home/service/local.svg" alt="local"> <span>Москва</span></div>
+													<div class="service-recommend__rating"><img src="img/home/service/stars.svg" alt="stars"><span>5.0</span></div>
+													<div class="service-recommend__review"><img src="img/home/service/coment.svg" alt=""><span>25 отзывов</span></div>
+												</div>
+												<div class="service-recommend__buttons">
+													<a href="#" data-popup="#popup" class="service-recommend__button number-button">Позвонить <img src="img/home/car/tel.svg" alt="tel"></a>
+													<a href="#" class="service-recommend__button number-button number-button--while">Написать
+														специалисту</a>
+												</div>
+											</div>
+										</div>
+										<h3 class="service-recommend__portfolio-title">Портфолио</h3>
+										<div class="service-recommend__portfolio">
+											<a href="#" class="service-recommend__image-ibg"><picture><source srcset="img/home/service/02.webp" type="image/webp"><img src="img/home/service/02.jpeg" alt="portfolio"></picture></a>
+											<a href="#" class="service-recommend__image-ibg"><picture><source srcset="img/home/service/03.webp" type="image/webp"><img src="img/home/service/03.jpeg" alt="portfolio"></picture></a>
+											<a href="#" class="service-recommend__image-ibg"><picture><source srcset="img/home/service/04.webp" type="image/webp"><img src="img/home/service/04.jpeg" alt="portfolio"></picture></a>
+											<a href="#" class="service-recommend__image-ibg"><picture><source srcset="img/home/service/05.webp" type="image/webp"><img src="img/home/service/05.jpeg" alt="portfolio"></picture></a>
+											<a href="#" class="service-recommend__image-ibg"><picture><source srcset="img/home/service/05.webp" type="image/webp"><img src="img/home/service/05.jpeg" alt="portfolio"></picture></a>
+										</div>
+										<div class="service-recommend__about-me">
+											<h4 class="service-recommend__about-me-title">О себе</h4>
+											<p class="service-recommend__about-me-text">Фотографирую стильно, современно и
+												недорого. Помогаю с позированием.Моя задача — создать вам правильный визуальный
+												образ и сделать так, чтобы фотография работала на вас. </p>
+										</div>
+										<div class="service-recommend__experience">
+											<h5 class="service-recommend__experience-title">Опыт</h5>
+											<p class="service-recommend__experience-text">Зарегистрирован в 2018г (5лет)</p>
+										</div>
+										<h6 class="service-recommend__price-title">Прайс</h6>
+										<div class="service-recommend__price">
+
+											<table class="service-recommend__price-body">
+												<!-- <caption class="service-recommend__price-title">Прайс</caption> -->
+												<tbody class="service-recommend__price-wrapper">
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Репортажная съемка</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Концертная съемка</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Свадебная фотосессия</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Семейная фотосессия</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="service-recommend__price-body">
+												<!-- <caption class="service-recommend__price-title">Прайс</caption> -->
+												<tbody class="service-recommend__price-wrapper">
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Репортажная съемка</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Концертная съемка</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Свадебная фотосессия</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Семейная фотосессия</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+												</tbody>
+											</table>
+
+										</div>
+
+
+
+
+
+
+
+
+									</div>
+								</div>
+								<div class="service-recommend__body">
+									<ul class="service-recommend__list">
+										<li class="service-recommend__link service-recommend__link-active">Фотосъемка</li>
+										<li class="service-recommend__link">Видеосъемка</li>
+										<li class="service-recommend__link">Кейтеринг</li>
+										<li class="service-recommend__link">Ведение мероприятий</li>
+									</ul>
+									<div class="service-recommend__items">
+										<div class="service-recommend__user-body">
+											<div class="service-recommend__avatar service-recommend__avatar-ibg"><picture><source srcset="img/home/service/01.webp" type="image/webp"><img src="img/home/service/01.jpeg" alt="avatar"></picture></div>
+											<div class="service-recommend__user">
+												<h3 class="service-recommend__name">Иванов Алексей Иванович <span>Онлайн</span></h3>
+												<div class="service-recommend__user-data">
+
+													<div class="service-recommend__city"> <img src="img/home/service/local.svg" alt="local"> <span>Москва</span></div>
+													<div class="service-recommend__rating"><img src="img/home/service/stars.svg" alt="stars"><span>5.0</span></div>
+													<div class="service-recommend__review"><img src="img/home/service/coment.svg" alt=""><span>25 отзывов</span></div>
+												</div>
+												<div class="service-recommend__buttons">
+													<a data-popup="#popup" href="#" class="service-recommend__button number-button">Позвонить <img src="img/home/car/tel.svg" alt="tel"></a>
+													<a href="#" class="service-recommend__button number-button number-button--while">Написать
+														специалисту</a>
+												</div>
+											</div>
+										</div>
+										<h3 class="service-recommend__portfolio-title">Портфолио</h3>
+										<div class="service-recommend__portfolio">
+											<a href="#" class="service-recommend__image-ibg"><picture><source srcset="img/home/service/02.webp" type="image/webp"><img src="img/home/service/02.jpeg" alt="portfolio"></picture></a>
+											<a href="#" class="service-recommend__image-ibg"><picture><source srcset="img/home/service/03.webp" type="image/webp"><img src="img/home/service/03.jpeg" alt="portfolio"></picture></a>
+											<a href="#" class="service-recommend__image-ibg"><picture><source srcset="img/home/service/04.webp" type="image/webp"><img src="img/home/service/04.jpeg" alt="portfolio"></picture></a>
+											<a href="#" class="service-recommend__image-ibg"><picture><source srcset="img/home/service/05.webp" type="image/webp"><img src="img/home/service/05.jpeg" alt="portfolio"></picture></a>
+											<a href="#" class="service-recommend__image-ibg"><picture><source srcset="img/home/service/05.webp" type="image/webp"><img src="img/home/service/05.jpeg" alt="portfolio"></picture></a>
+										</div>
+										<div class="service-recommend__about-me">
+											<h4 class="service-recommend__about-me-title">О себе</h4>
+											<p class="service-recommend__about-me-text">Фотографирую стильно, современно и
+												недорого. Помогаю с позированием.Моя задача — создать вам правильный визуальный
+												образ и сделать так, чтобы фотография работала на вас. </p>
+										</div>
+										<div class="service-recommend__experience">
+											<h5 class="service-recommend__experience-title">Опыт</h5>
+											<p class="service-recommend__experience-text">Зарегистрирован в 2018г (5лет)</p>
+										</div>
+										<h6 class="service-recommend__price-title">Прайс</h6>
+										<div class="service-recommend__price">
+
+											<table class="service-recommend__price-body">
+												<!-- <caption class="service-recommend__price-title">Прайс</caption> -->
+												<tbody class="service-recommend__price-wrapper">
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Репортажная съемка</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Концертная съемка</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Свадебная фотосессия</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Семейная фотосессия</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+												</tbody>
+											</table>
+											<table class="service-recommend__price-body">
+												<!-- <caption class="service-recommend__price-title">Прайс</caption> -->
+												<tbody class="service-recommend__price-wrapper">
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Репортажная съемка</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Концертная съемка</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Свадебная фотосессия</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+													<tr class="service-recommend__price-items">
+														<td class="service-recommend__price-name">Семейная фотосессия</td>
+														<td class="service-recommend__price-line"></td>
+														<td class="service-recommend__price-namber">3500-6000р/ч</td>
+													</tr>
+												</tbody>
+											</table>
+
+										</div>
+
+
+
+
+
+
+
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+
+
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__container">
+					<div class="footer__body">
+						<nav class="footer__top">
+							<ul class="footer__items">
+								<li class="footer__list"><a href="#">Помещения</a></li>
+								<li class="footer__list"><a href="#">Услуги</a></li>
+								<li class="footer__list"><a href="#">Event-авто</a></li>
+								<li class="footer__list"><a href="#">Акции</a></li>
+							</ul>
+							<div class="footer__cabinet">
+								<div class="footer__favorites">Избранное</div>
+								<div class="footer__private">Личный кабинет </div>
+							</div>
+						</nav>
+						<div class="footer__center">
+							<ul class="footer__informations">
+								<li class="footer__informations-list"><a href="#">Разместить объявления</a></li>
+								<li class="footer__informations-list"><a href="#">Все объявления</a></li>
+								<li class="footer__informations-list"><a href="#">Безопасность</a></li>
+								<li class="footer__informations-list"><a href="#">Реклама на сайте</a></li>
+							</ul>
+							<div class="footer__support">
+								Поддержка: <a href="mailto:support@eventbooking.ru">support@eventbooking.ru</a>
+							</div>
+						</div>
+						<div class="footer__bottom">
+							<a href="#"><img src="img/footer/logo.svg" alt="logo"></a>
+							<div class="footer__service">©2023 EVENTBOOKING - СЕРВИС ДЛЯ ВАШИХ МЕРОПРИЯТИЙ</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240305193046"></script>
+</body>
+
+</html>

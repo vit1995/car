@@ -1,0 +1,13 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5_12650">
+			<rect id="Atom/Icon/Search" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip5_12650)">
+		<path id="Icon (Stroke)" d="M10 4C6.68652 4 4 6.68555 4 10C4 13.3145 6.68652 16 10 16C13.3135 16 16 13.3145 16 10C16 6.68555 13.3135 4 10 4ZM2 10C2 5.58203 5.58203 2 10 2C14.418 2 18 5.58203 18 10C18 11.8496 17.373 13.5508 16.3203 14.9062L21.707 20.293C22.0977 20.6836 22.0977 21.3164 21.707 21.707C21.3164 22.0977 20.6836 22.0977 20.293 21.707L14.9053 16.3203C13.5508 17.373 11.8486 18 10 18C5.58203 18 2 14.418 2 10Z" fill="#ABABAB" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
